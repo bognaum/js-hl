@@ -76,6 +76,10 @@ pre.#{$pref}.monokai-theme {
 
 pre.#{$pref}.monokai-clarified-theme {
 	background-color: #444;
+	.#{$pref}__line .#{$pref}__line-number {
+		background-color: #444;
+		// border-right: 3px solid #ccc;
+	}
 	.#{$pref}__line-text {
 		.comment     {color: #888;}
 		.string      {color: #da5;}

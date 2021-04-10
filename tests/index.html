@@ -13,7 +13,7 @@
 </head>
 <body>
 	<div class="container">
-		<h1>Тесты</h1>
+		<h1>Tests</h1>
 		
 		<pre id="pre_1" class="js-hl calm-clarified-theme"></pre>
 		<pre id="pre_2" class="js-hl calm-clarified-theme"></pre>
@@ -114,8 +114,31 @@
 			]
 		</pre>
 		
-		<pre id="pre_5" class="js-hl calm-clarified-theme" data-line-num="1"></pre>
+		<pre id="pre_5" class="js-hl monokai-theme" data-line-num="1"></pre>
 		<!-- <script type="text/javascript" src="get-code-1.js"></script> -->
+
+		<h2>Themes</h2>
+
+		<h3>Calm</h3>
+		<pre class="theme-test-group calm-theme"></pre>
+		<script type="text/javascript" src="get-code-1.js"></script>
+
+		<h3>Calm clarified</h3>
+		<pre class="theme-test-group calm-clarified-theme"></pre>
+		<script type="text/javascript" src="get-code-1.js"></script>
+
+		<h3>Monokai</h3>
+		<pre class="theme-test-group monokai-theme"></pre>
+		<script type="text/javascript" src="get-code-1.js"></script>
+
+		<h3>Monokai clarified</h3>
+		<pre class="theme-test-group monokai-clarified-theme"></pre>
+		<script type="text/javascript" src="get-code-1.js"></script>
+
+		<h3>t1</h3>
+		<pre class="theme-test-group t1-theme"></pre>
+		<script type="text/javascript" src="get-code-1.js"></script>
+
 		<script type="module">
 			import JsHl from "./../js-hl.js"
 			const jsHl = new JsHl();
@@ -130,7 +153,18 @@
 			
 			jsHl.highlightTextContent(pre_3);
 			jsHl.highlightTextContent(pre_4);
-			jsHl.highlightTextContent(pre_5);
+
+			fetch("./../index.js")
+				.then((res) => res.text())
+				.then((text) => jsHl.highlight(pre_5, text));
+
+			const jsHl_2 = new JsHl("theme-test-group");
+
+			document.querySelectorAll("pre.theme-test-group").forEach((v) => {
+				fetch("../js-hl.js")
+					.then((res) => res.text())
+					.then((text) => jsHl_2.highlight(v, text));
+			});
 		</script>
 	</div>
 </body>

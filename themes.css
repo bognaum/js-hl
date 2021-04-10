@@ -112,6 +112,8 @@ pre.js-hl.monokai-theme {
 
 pre.js-hl.monokai-clarified-theme {
   background-color: #444; }
+  pre.js-hl.monokai-clarified-theme .js-hl__line .js-hl__line-number {
+    background-color: #444; }
   pre.js-hl.monokai-clarified-theme .js-hl__line-text .comment {
     color: #888; }
   pre.js-hl.monokai-clarified-theme .js-hl__line-text .string {

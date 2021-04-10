@@ -115,6 +115,8 @@ export default function setStyle(clPref) {
 
 		pre.${clPref}.monokai-clarified-theme {
 		  background-color: #444; }
+		  pre.${clPref}.monokai-clarified-theme .${clPref}__line .${clPref}__line-number {
+		    background-color: #444; }
 		  pre.${clPref}.monokai-clarified-theme .${clPref}__line-text .comment {
 		    color: #888; }
 		  pre.${clPref}.monokai-clarified-theme .${clPref}__line-text .string {
@@ -195,6 +197,8 @@ export default function setStyle(clPref) {
 
 		pre.${clPref}.t1-theme .${clPref}__line-text .f_name {
 		  color: #3bd; }
+
+		/*# sourceMappingURL=themes.css.map */
 	`;
 
 	const styleClassName = `${clPref}__theme-style`;
