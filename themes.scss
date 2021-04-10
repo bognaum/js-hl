@@ -1,0 +1,120 @@
+$pref : "js-hl";
+
+pre.#{$pref}.calm-theme {
+	background-color: #222;
+	.#{$pref}__line-text {
+		color: #eee;
+		.comment       {color: #777;}
+		.string        {color: #a98;}
+		.re            {color: #78a;}
+		.slashed       {color: #f90;}
+		.keyword       {color: #78a;}
+		.string_tag    {color: #ddc;}
+		.word          {color: #ddc;}
+		.operator      {color: #78a;}
+		.punctuation   {color: #eee;}
+		.number        {color: #f90;}
+		.bool          {color: #f90;}
+		.sp_const      {color: #f90;}
+		.paren         {color: #ddc;}
+		.curly         {color: #ddc;}
+		.bracket       {color: #ddc;}
+		.f_name        {color: #eee; font-weight: bold;}
+	}
+
+}
+
+pre.#{$pref}.calm-clarified-theme {
+	.#{$pref}__line .#{$pref}__line-number {
+		background-color: #444;
+		// border-right: 3px solid #ccc;
+	}
+	.#{$pref}__line-text {
+		color: #eee;
+		.comment       {color: #777;}
+		.string        {color: #b98;}
+		.re            {color: #78a;}
+		.slashed       {color: #fb6;}
+		.keyword       {color: #78a;}
+		.string_tag    {color: #ddc;}
+		.word          {color: #ddc;}
+		.operator      {color: #78a;}
+		.punctuation   {color: #eee;}
+		.number        {color: #fb6;}
+		.bool          {color: #fb6;}
+		.sp_const      {color: #fb6;}
+		.paren         {color: #ddc;}
+		.curly         {color: #ddc;}
+		.bracket       {color: #ddc;}
+		.f_name        {color: #eee; font-weight: bold;}
+	}
+
+}
+
+
+pre.#{$pref}.monokai-theme {
+	background-color: #333;
+	.#{$pref}__line-text {
+		.comment     {color: #888;}
+		.string      {color: #da5;}
+		.re          {color: #da5;}
+		.slashed     {color: #98f;}
+		.keyword     {color: #e48;}
+		.string_tag  {color: #eee;}
+		.word        {color: #eee;}
+		.operator    {color: #e48;}
+		.punctuation {color: #eee;}
+		.number      {color: #98f;}
+		.bool        {color: #98f;}
+		.sp_const    {color: #98f;}
+		.paren       {color: #eee;}
+		.curly       {color: #eee;}
+		.bracket     {color: #eee;}
+		.f_name      {color: #3bd;}
+	}
+}
+
+pre.#{$pref}.monokai-clarified-theme {
+	background-color: #444;
+	.#{$pref}__line-text {
+		.comment     {color: #888;}
+		.string      {color: #da5;}
+		.re          {color: #da5;}
+		.slashed     {color: #98f;}
+		.keyword     {color: #e48;}
+		.string_tag  {color: #eee;}
+		.word        {color: #eee;}
+		.operator    {color: #e48;}
+		.punctuation {color: #eee;}
+		.number      {color: #98f;}
+		.bool        {color: #98f;}
+		.sp_const    {color: #98f;}
+		.paren       {color: #eee;}
+		.curly       {color: #eee;}
+		.bracket     {color: #eee;}
+		.f_name      {color: #3bd;}
+	}
+}
+
+pre.#{$pref}.t1-theme {
+	.#{$pref}__line-text {
+		// .f_name      {color: #8d1;}
+		.comment     {color: #777;}
+		.string      {color: #da5;}
+		.re          {color: #da5;}
+		.slashed     {color: #98f;}
+		.keyword     {color: #e48;}
+		.string_tag  {color: #eee;}
+		.word        {color: #eee;}
+		.operator    {color: #3db;}
+		.punctuation {color: #3db;}
+		.number      {color: #98f;}
+		.bool        {color: #98f;}
+		.sp_const    {color: #98f;}
+		.paren       {color: #3db;}
+		.curly       {color: #3db;}
+		.bracket     {color: #3db;}
+		.f_name      {color: #3bd;}
+	}
+}
+
