@@ -1,6 +1,6 @@
 $pref : "js-hl";
 
-pre.#{$pref}.calm-theme {
+.#{$pref}.calm-theme {
 	background-color: #222;
 	.#{$pref}__line-text {
 		color: #eee;
@@ -24,7 +24,7 @@ pre.#{$pref}.calm-theme {
 
 }
 
-pre.#{$pref}.calm-clarified-theme {
+.#{$pref}.calm-clarified-theme {
 	.#{$pref}__line .#{$pref}__line-number {
 		background-color: #444;
 		// border-right: 3px solid #ccc;
@@ -52,7 +52,7 @@ pre.#{$pref}.calm-clarified-theme {
 }
 
 
-pre.#{$pref}.monokai-theme {
+.#{$pref}.monokai-theme {
 	background-color: #333;
 	.#{$pref}__line-text {
 		.comment     {color: #888;}
@@ -74,7 +74,7 @@ pre.#{$pref}.monokai-theme {
 	}
 }
 
-pre.#{$pref}.monokai-clarified-theme {
+.#{$pref}.monokai-clarified-theme {
 	background-color: #444;
 	.#{$pref}__line .#{$pref}__line-number {
 		background-color: #444;
@@ -100,7 +100,7 @@ pre.#{$pref}.monokai-clarified-theme {
 	}
 }
 
-pre.#{$pref}.t1-theme {
+.#{$pref}.t1-theme {
 	.#{$pref}__line-text {
 		// .f_name      {color: #8d1;}
 		.comment     {color: #777;}
