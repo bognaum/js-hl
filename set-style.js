@@ -1,203 +1,207 @@
 export default function setStyle(clPref) {
 
 	const cssCode = `
-		.${clPref}.calm-theme {
+
+		.js-hl.calm-theme {
 		  background-color: #222; }
-		  .${clPref}.calm-theme .${clPref}__line-text {
+		  .js-hl.calm-theme .js-hl__line-text {
 		    color: #eee; }
-		    .${clPref}.calm-theme .${clPref}__line-text .comment {
+		    .js-hl.calm-theme .js-hl__line-text .comment {
 		      color: #777; }
-		    .${clPref}.calm-theme .${clPref}__line-text .string {
+		    .js-hl.calm-theme .js-hl__line-text .string {
 		      color: #a98; }
-		    .${clPref}.calm-theme .${clPref}__line-text .re {
+		    .js-hl.calm-theme .js-hl__line-text .re {
 		      color: #78a; }
-		    .${clPref}.calm-theme .${clPref}__line-text .slashed {
+		    .js-hl.calm-theme .js-hl__line-text .slashed {
 		      color: #f90; }
-		    .${clPref}.calm-theme .${clPref}__line-text .keyword {
+		    .js-hl.calm-theme .js-hl__line-text .keyword {
 		      color: #78a; }
-		    .${clPref}.calm-theme .${clPref}__line-text .string_tag {
+		    .js-hl.calm-theme .js-hl__line-text .string_tag {
 		      color: #ddc; }
-		    .${clPref}.calm-theme .${clPref}__line-text .word {
+		    .js-hl.calm-theme .js-hl__line-text .word {
 		      color: #ddc; }
-		    .${clPref}.calm-theme .${clPref}__line-text .operator {
+		    .js-hl.calm-theme .js-hl__line-text .operator {
 		      color: #78a; }
-		    .${clPref}.calm-theme .${clPref}__line-text .punctuation {
+		    .js-hl.calm-theme .js-hl__line-text .punctuation {
 		      color: #eee; }
-		    .${clPref}.calm-theme .${clPref}__line-text .number {
+		    .js-hl.calm-theme .js-hl__line-text .number {
 		      color: #f90; }
-		    .${clPref}.calm-theme .${clPref}__line-text .bool {
+		    .js-hl.calm-theme .js-hl__line-text .bool {
 		      color: #f90; }
-		    .${clPref}.calm-theme .${clPref}__line-text .sp_const {
+		    .js-hl.calm-theme .js-hl__line-text .sp_const {
 		      color: #f90; }
-		    .${clPref}.calm-theme .${clPref}__line-text .paren {
+		    .js-hl.calm-theme .js-hl__line-text .paren {
 		      color: #ddc; }
-		    .${clPref}.calm-theme .${clPref}__line-text .curly {
+		    .js-hl.calm-theme .js-hl__line-text .curly {
 		      color: #ddc; }
-		    .${clPref}.calm-theme .${clPref}__line-text .bracket {
+		    .js-hl.calm-theme .js-hl__line-text .bracket {
 		      color: #ddc; }
-		    .${clPref}.calm-theme .${clPref}__line-text .f_name {
+		    .js-hl.calm-theme .js-hl__line-text .f_name {
 		      color: #eee;
 		      font-weight: bold; }
 
-		.${clPref}.calm-clarified-theme .${clPref}__line .${clPref}__line-number {
+		.js-hl.calm-clarified-theme .js-hl__line .js-hl__line-number {
 		  background-color: #444; }
 
-		.${clPref}.calm-clarified-theme .${clPref}__line-text {
+		.js-hl.calm-clarified-theme .js-hl__line-text {
 		  color: #eee; }
-		  .${clPref}.calm-clarified-theme .${clPref}__line-text .comment {
+		  .js-hl.calm-clarified-theme .js-hl__line-text .comment {
 		    color: #777; }
-		  .${clPref}.calm-clarified-theme .${clPref}__line-text .string {
+		  .js-hl.calm-clarified-theme .js-hl__line-text .string {
 		    color: #b98; }
-		  .${clPref}.calm-clarified-theme .${clPref}__line-text .re {
+		  .js-hl.calm-clarified-theme .js-hl__line-text .re {
 		    color: #78a; }
-		  .${clPref}.calm-clarified-theme .${clPref}__line-text .slashed {
+		  .js-hl.calm-clarified-theme .js-hl__line-text .slashed {
 		    color: #fb6; }
-		  .${clPref}.calm-clarified-theme .${clPref}__line-text .keyword {
+		  .js-hl.calm-clarified-theme .js-hl__line-text .keyword {
 		    color: #78a; }
-		  .${clPref}.calm-clarified-theme .${clPref}__line-text .string_tag {
+		  .js-hl.calm-clarified-theme .js-hl__line-text .string_tag {
 		    color: #ddc; }
-		  .${clPref}.calm-clarified-theme .${clPref}__line-text .word {
+		  .js-hl.calm-clarified-theme .js-hl__line-text .word {
 		    color: #ddc; }
-		  .${clPref}.calm-clarified-theme .${clPref}__line-text .operator {
+		  .js-hl.calm-clarified-theme .js-hl__line-text .operator {
 		    color: #78a; }
-		  .${clPref}.calm-clarified-theme .${clPref}__line-text .punctuation {
+		  .js-hl.calm-clarified-theme .js-hl__line-text .punctuation {
 		    color: #eee; }
-		  .${clPref}.calm-clarified-theme .${clPref}__line-text .number {
+		  .js-hl.calm-clarified-theme .js-hl__line-text .number {
 		    color: #fb6; }
-		  .${clPref}.calm-clarified-theme .${clPref}__line-text .bool {
+		  .js-hl.calm-clarified-theme .js-hl__line-text .bool {
 		    color: #fb6; }
-		  .${clPref}.calm-clarified-theme .${clPref}__line-text .sp_const {
+		  .js-hl.calm-clarified-theme .js-hl__line-text .sp_const {
 		    color: #fb6; }
-		  .${clPref}.calm-clarified-theme .${clPref}__line-text .paren {
+		  .js-hl.calm-clarified-theme .js-hl__line-text .paren {
 		    color: #ddc; }
-		  .${clPref}.calm-clarified-theme .${clPref}__line-text .curly {
+		  .js-hl.calm-clarified-theme .js-hl__line-text .curly {
 		    color: #ddc; }
-		  .${clPref}.calm-clarified-theme .${clPref}__line-text .bracket {
+		  .js-hl.calm-clarified-theme .js-hl__line-text .bracket {
 		    color: #ddc; }
-		  .${clPref}.calm-clarified-theme .${clPref}__line-text .f_name {
+		  .js-hl.calm-clarified-theme .js-hl__line-text .f_name {
 		    color: #eee;
 		    font-weight: bold; }
 
-		.${clPref}.monokai-theme {
+		.js-hl.monokai-theme {
 		  background-color: #333; }
-		  .${clPref}.monokai-theme .${clPref}__line-text .comment {
+		  .js-hl.monokai-theme .js-hl__line-text .comment {
 		    color: #888; }
-		  .${clPref}.monokai-theme .${clPref}__line-text .string {
+		  .js-hl.monokai-theme .js-hl__line-text .string {
 		    color: #da5; }
-		  .${clPref}.monokai-theme .${clPref}__line-text .re {
+		  .js-hl.monokai-theme .js-hl__line-text .re {
 		    color: #da5; }
-		  .${clPref}.monokai-theme .${clPref}__line-text .slashed {
+		  .js-hl.monokai-theme .js-hl__line-text .slashed {
 		    color: #98f; }
-		  .${clPref}.monokai-theme .${clPref}__line-text .keyword {
+		  .js-hl.monokai-theme .js-hl__line-text .keyword {
 		    color: #e48; }
-		  .${clPref}.monokai-theme .${clPref}__line-text .string_tag {
+		  .js-hl.monokai-theme .js-hl__line-text .string_tag {
 		    color: #eee; }
-		  .${clPref}.monokai-theme .${clPref}__line-text .word {
+		  .js-hl.monokai-theme .js-hl__line-text .word {
 		    color: #eee; }
-		  .${clPref}.monokai-theme .${clPref}__line-text .operator {
+		  .js-hl.monokai-theme .js-hl__line-text .operator {
 		    color: #e48; }
-		  .${clPref}.monokai-theme .${clPref}__line-text .punctuation {
+		  .js-hl.monokai-theme .js-hl__line-text .punctuation {
 		    color: #eee; }
-		  .${clPref}.monokai-theme .${clPref}__line-text .number {
+		  .js-hl.monokai-theme .js-hl__line-text .number {
 		    color: #98f; }
-		  .${clPref}.monokai-theme .${clPref}__line-text .bool {
+		  .js-hl.monokai-theme .js-hl__line-text .bool {
 		    color: #98f; }
-		  .${clPref}.monokai-theme .${clPref}__line-text .sp_const {
+		  .js-hl.monokai-theme .js-hl__line-text .sp_const {
 		    color: #98f; }
-		  .${clPref}.monokai-theme .${clPref}__line-text .paren {
+		  .js-hl.monokai-theme .js-hl__line-text .paren {
 		    color: #eee; }
-		  .${clPref}.monokai-theme .${clPref}__line-text .curly {
+		  .js-hl.monokai-theme .js-hl__line-text .curly {
 		    color: #eee; }
-		  .${clPref}.monokai-theme .${clPref}__line-text .bracket {
+		  .js-hl.monokai-theme .js-hl__line-text .bracket {
 		    color: #eee; }
-		  .${clPref}.monokai-theme .${clPref}__line-text .f_name {
+		  .js-hl.monokai-theme .js-hl__line-text .f_name {
 		    color: #3bd; }
 
-		.${clPref}.monokai-clarified-theme {
+		.js-hl.monokai-clarified-theme {
 		  background-color: #444; }
-		  .${clPref}.monokai-clarified-theme .${clPref}__line .${clPref}__line-number {
+		  .js-hl.monokai-clarified-theme .js-hl__line .js-hl__line-number {
 		    background-color: #444; }
-		  .${clPref}.monokai-clarified-theme .${clPref}__line-text .comment {
+		  .js-hl.monokai-clarified-theme .js-hl__line-text .comment {
 		    color: #888; }
-		  .${clPref}.monokai-clarified-theme .${clPref}__line-text .string {
+		  .js-hl.monokai-clarified-theme .js-hl__line-text .string {
 		    color: #da5; }
-		  .${clPref}.monokai-clarified-theme .${clPref}__line-text .re {
+		  .js-hl.monokai-clarified-theme .js-hl__line-text .re {
 		    color: #da5; }
-		  .${clPref}.monokai-clarified-theme .${clPref}__line-text .slashed {
+		  .js-hl.monokai-clarified-theme .js-hl__line-text .slashed {
 		    color: #98f; }
-		  .${clPref}.monokai-clarified-theme .${clPref}__line-text .keyword {
+		  .js-hl.monokai-clarified-theme .js-hl__line-text .keyword {
 		    color: #e48; }
-		  .${clPref}.monokai-clarified-theme .${clPref}__line-text .string_tag {
+		  .js-hl.monokai-clarified-theme .js-hl__line-text .string_tag {
 		    color: #eee; }
-		  .${clPref}.monokai-clarified-theme .${clPref}__line-text .word {
+		  .js-hl.monokai-clarified-theme .js-hl__line-text .word {
 		    color: #eee; }
-		  .${clPref}.monokai-clarified-theme .${clPref}__line-text .operator {
+		  .js-hl.monokai-clarified-theme .js-hl__line-text .operator {
 		    color: #e48; }
-		  .${clPref}.monokai-clarified-theme .${clPref}__line-text .punctuation {
+		  .js-hl.monokai-clarified-theme .js-hl__line-text .punctuation {
 		    color: #eee; }
-		  .${clPref}.monokai-clarified-theme .${clPref}__line-text .number {
+		  .js-hl.monokai-clarified-theme .js-hl__line-text .number {
 		    color: #98f; }
-		  .${clPref}.monokai-clarified-theme .${clPref}__line-text .bool {
+		  .js-hl.monokai-clarified-theme .js-hl__line-text .bool {
 		    color: #98f; }
-		  .${clPref}.monokai-clarified-theme .${clPref}__line-text .sp_const {
+		  .js-hl.monokai-clarified-theme .js-hl__line-text .sp_const {
 		    color: #98f; }
-		  .${clPref}.monokai-clarified-theme .${clPref}__line-text .paren {
+		  .js-hl.monokai-clarified-theme .js-hl__line-text .paren {
 		    color: #eee; }
-		  .${clPref}.monokai-clarified-theme .${clPref}__line-text .curly {
+		  .js-hl.monokai-clarified-theme .js-hl__line-text .curly {
 		    color: #eee; }
-		  .${clPref}.monokai-clarified-theme .${clPref}__line-text .bracket {
+		  .js-hl.monokai-clarified-theme .js-hl__line-text .bracket {
 		    color: #eee; }
-		  .${clPref}.monokai-clarified-theme .${clPref}__line-text .f_name {
+		  .js-hl.monokai-clarified-theme .js-hl__line-text .f_name {
 		    color: #3bd; }
 
-		.${clPref}.t1-theme .${clPref}__line-text .comment {
+		.js-hl.t1-theme .js-hl__line-text .comment {
 		  color: #777; }
 
-		.${clPref}.t1-theme .${clPref}__line-text .string {
+		.js-hl.t1-theme .js-hl__line-text .string {
 		  color: #da5; }
 
-		.${clPref}.t1-theme .${clPref}__line-text .re {
+		.js-hl.t1-theme .js-hl__line-text .re {
 		  color: #da5; }
 
-		.${clPref}.t1-theme .${clPref}__line-text .slashed {
+		.js-hl.t1-theme .js-hl__line-text .slashed {
 		  color: #98f; }
 
-		.${clPref}.t1-theme .${clPref}__line-text .keyword {
+		.js-hl.t1-theme .js-hl__line-text .keyword {
 		  color: #e48; }
 
-		.${clPref}.t1-theme .${clPref}__line-text .string_tag {
+		.js-hl.t1-theme .js-hl__line-text .string_tag {
 		  color: #eee; }
 
-		.${clPref}.t1-theme .${clPref}__line-text .word {
+		.js-hl.t1-theme .js-hl__line-text .word {
 		  color: #eee; }
 
-		.${clPref}.t1-theme .${clPref}__line-text .operator {
+		.js-hl.t1-theme .js-hl__line-text .operator {
 		  color: #3db; }
 
-		.${clPref}.t1-theme .${clPref}__line-text .punctuation {
+		.js-hl.t1-theme .js-hl__line-text .punctuation {
 		  color: #3db; }
 
-		.${clPref}.t1-theme .${clPref}__line-text .number {
+		.js-hl.t1-theme .js-hl__line-text .number {
 		  color: #98f; }
 
-		.${clPref}.t1-theme .${clPref}__line-text .bool {
+		.js-hl.t1-theme .js-hl__line-text .bool {
 		  color: #98f; }
 
-		.${clPref}.t1-theme .${clPref}__line-text .sp_const {
+		.js-hl.t1-theme .js-hl__line-text .sp_const {
 		  color: #98f; }
 
-		.${clPref}.t1-theme .${clPref}__line-text .paren {
+		.js-hl.t1-theme .js-hl__line-text .paren {
 		  color: #3db; }
 
-		.${clPref}.t1-theme .${clPref}__line-text .curly {
+		.js-hl.t1-theme .js-hl__line-text .curly {
 		  color: #3db; }
 
-		.${clPref}.t1-theme .${clPref}__line-text .bracket {
+		.js-hl.t1-theme .js-hl__line-text .bracket {
 		  color: #3db; }
 
-		.${clPref}.t1-theme .${clPref}__line-text .f_name {
+		.js-hl.t1-theme .js-hl__line-text .f_name {
 		  color: #3bd; }
-	`;
+
+		/*# sourceMappingURL=themes.css.map */
+
+	`.replace(/\bjs-hl/g, clPref);
 
 	const styleClassName = `${clPref}__theme-style`;
 
