@@ -1,6 +1,8 @@
 import setStyle from "./CSS/themes.scss.js";
 import SyntaxHlFk from "./syntax-highlight-framework/syntax-hl-fk.js"
 
+const version = "1.0.0";
+
 const {
 	token,
 	nToken,
@@ -169,4 +171,11 @@ export default class JsHlter extends SyntaxHlFk.Highlighter {
 		super(r.main, clPref);
 		setStyle(clPref);
 	}
+
+	get version () { return version; }
+
+	/* getHighlighted ( // To di in next version!!!
+		templ, firstLineNum=1, cssClasses="calm-clarified-theme") {
+		return super.getHighlighted(templ, firstLineNum, cssClasses);
+	} */
 }
